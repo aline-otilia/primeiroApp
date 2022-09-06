@@ -3,6 +3,39 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  /** bordo **/
+  --ion-color-bordo: #a80000;
+	--ion-color-bordo-rgb: 168,0,0;
+	--ion-color-bordo-contrast: #ffffff;
+	--ion-color-bordo-contrast-rgb: 255,255,255;
+	--ion-color-bordo-shade: #940000;
+	--ion-color-bordo-tint: #b11a1a;
+
+  /** sede **/
+  --ion-color-sede: #ffc800;
+	--ion-color-sede-rgb: 255,200,0;
+	--ion-color-sede-contrast: #000000;
+	--ion-color-sede-contrast-rgb: 0,0,0;
+	--ion-color-sede-shade: #e0b000;
+	--ion-color-sede-tint: #ffce1a;
+
+    /** barra **/
+    --ion-color-barra: #f50000;
+    --ion-color-barra-rgb: 245,0,0;
+    --ion-color-barra-contrast: #ffeb0f;
+    --ion-color-barra-contrast-rgb: 0,0,0;
+    --ion-color-barra-shade: #d80000;
+    --ion-color-barra-tint: #f61a1a;
+
+  /** fome **/
+  --ion-color-fome: #f50000;
+	--ion-color-fome-rgb: 245,0,0;
+	--ion-color-fome-contrast: #ffffff;
+	--ion-color-fome-contrast-rgb: 255,255,255;
+	--ion-color-fome-shade: #d80000;
+	--ion-color-fome-tint: #f61a1a;
+
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -233,4 +266,40 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-fome {
+	--ion-color-base: var(--ion-color-fome);
+	--ion-color-base-rgb: var(--ion-color-fome-rgb);
+	--ion-color-contrast: var(--ion-color-fome-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-fome-contrast-rgb);
+	--ion-color-shade: var(--ion-color-fome-shade);
+	--ion-color-tint: var(--ion-color-fome-tint);
+}
+
+.ion-color-sede {
+	--ion-color-base: var(--ion-color-sede);
+	--ion-color-base-rgb: var(--ion-color-sede-rgb);
+	--ion-color-contrast: var(--ion-color-sede-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-sede-contrast-rgb);
+	--ion-color-shade: var(--ion-color-sede-shade);
+	--ion-color-tint: var(--ion-color-sede-tint);
+}
+
+.ion-color-bordo {
+	--ion-color-base: var(--ion-color-bordo);
+	--ion-color-base-rgb: var(--ion-color-bordo-rgb);
+	--ion-color-contrast: var(--ion-color-bordo-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-bordo-contrast-rgb);
+	--ion-color-shade: var(--ion-color-bordo-shade);
+	--ion-color-tint: var(--ion-color-bordo-tint);
+}
+
+.ion-color-barra {
+	--ion-color-base: var(--ion-color-barra);
+	--ion-color-base-rgb: var(--ion-color-barra-rgb);
+	--ion-color-contrast: var(--ion-color-barra-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-barra-contrast-rgb);
+	--ion-color-shade: var(--ion-color-barra-shade);
+	--ion-color-tint: var(--ion-color-barra-tint);
 }
